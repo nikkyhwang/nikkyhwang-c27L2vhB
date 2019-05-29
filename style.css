@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 :root {
     --main-color: #34252F;
     --secondary-color: #BEC5AD;
@@ -10,9 +11,10 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: system-ui;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 200;
     color: 	#3e5869; 
+    
 }
 
 #root {
@@ -101,6 +103,9 @@ html, body {
     color: #34252F;
     width: 135px;
     background: #A4B494;
+    font-family: 'Source Code Pro', monospace;
+
+    
 }
 
 .new-room-form button {
@@ -142,6 +147,8 @@ html, body {
     display: inline;
     padding: 4px 8px;
     border-radius: 8px;
+    font-family: 'Source Code Pro', monospace;
+    
 }
 
 .message-list {
@@ -174,6 +181,8 @@ html, body {
     border-style: none;
     background: var(--send-message-form);
     font-weight: 200;
+    font-family: 'Source Code Pro', monospace;
+
 
 }
 
